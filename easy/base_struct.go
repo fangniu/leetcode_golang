@@ -51,9 +51,9 @@ func preorderTraversal(root *TreeNode) {
 	}
 }
 
-func main() {
-	t4 := &TreeNode{1, nil, nil}
-	//t3 := &TreeNode{2, nil, nil}
-	t2 := &TreeNode{3, nil, t4}
-	preorderTraversal(t2)
-}
+//func main() {
+//	t4 := &TreeNode{1, nil, nil}
+//	//t3 := &TreeNode{2, nil, nil}
+//	t2 := &TreeNode{3, nil, t4}
+//	preorderTraversal(t2)
+//}
