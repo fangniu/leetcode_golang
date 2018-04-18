@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
 
 //Merge two sorted linked lists and return it as a new list.
 //The new list should be made by splicing together the nodes of the first two lists.
@@ -20,20 +16,6 @@ import (
  *     Next *ListNode
  * }
  */
-type ListNode struct {
-	Val int
-	Next *ListNode
-}
-
-func (l *ListNode) string() {
-	ll := l
-	var s []string
-	for ll != nil {
-		s = append(s, fmt.Sprintf("%v", ll.Val))
-		ll = ll.Next
-	}
-	fmt.Println(strings.Join(s, "->"))
-}
 
 
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
