@@ -28,13 +28,6 @@ func maxSubArray(nums []int) int {
 	return int(maxSum)
 }
 
-func max(a int, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
 func main() {
 	fmt.Println(maxSubArray([]int{-2,1,-3,4,-1,2,1,-5,4}))
 }
